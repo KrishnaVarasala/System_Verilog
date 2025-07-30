@@ -1,4 +1,4 @@
-//List out the dat types in system verilog and print the default values
+//List out the data types in system verilog and print the default values
 module tb();
 reg a;
 int b;
