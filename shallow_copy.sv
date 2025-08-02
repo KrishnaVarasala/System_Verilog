@@ -49,18 +49,22 @@ endmodule
 
 output:
 [child original]p_addr: 61, p_data : 28
-	child_addr : 78 child_data : 43
+	child_addr : 78 child_data : 43                                     //assiging values to the original 
 
 ---------------after shallow copy------------------
 
 [child duplicate]p_addr: 61, p_data : 28
 	child_addr : 78 child_data : 43
-[from parent] p_addr: 61, p_data : 28
+[from parent] p_addr: 61, p_data : 28                               //after copying those values will be given to the copied version of the original
 
 ---------------changing values in copy--------------
 
-[child original]p_addr: 200, p_data : 100
+[child original]p_addr: 200, p_data : 100 
 	child_addr : 78 child_data : 43
-[child duplicate]p_addr: 200, p_data : 100
+[child duplicate]p_addr: 200, p_data : 100 
 	child_addr : 666 child_data : 444
 [parent] p_addr: 200, p_data : 100
+
+
+	//after changing the values in extended object's original will get effected as there is no sepearate memory for the extended objects, as we are changing the copy, original also changes
+	//but the values of child c1(original) remains same although the values in c2(copy) changes as there is seperate memory
