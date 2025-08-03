@@ -44,7 +44,7 @@ module tb();
     c1.display("child original");
     c2=new();
     c2.deep_copy(c1);
-    $display("\n---------------after shallow copy------------------\n");
+	  $display("\n---------------after deep copy------------------\n");
     c2.display("child duplicate");
     c1.p.display("from parent");
     c2.child_addr = 666;
@@ -63,7 +63,7 @@ output:
 [child original]p_addr: 61, p_data : 28
 	child_addr : 78 child_data : 43
 
----------------after shallow copy------------------
+---------------after deep copy------------------
 
 [child duplicate]p_addr: 61, p_data : 28
 	child_addr : 78 child_data : 43
