@@ -28,3 +28,6 @@ module tb();
 endmodule
 
 output :
+'{name:"missy cooper", id:478, salary:700000}
+'{name:"sheldon cooper", id:443, salary:10000000}
+name : missy cooper , name : sheldon cooper
