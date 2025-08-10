@@ -1,2 +1,2 @@
-# verilog
+# System_verilog
 Basics
