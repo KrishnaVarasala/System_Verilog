@@ -9,7 +9,6 @@ class parent;
   function void display();
     $display("from parent class -> a : %0d",a);
   endfunction
-  
 endclass
 
 class child extends parent;
