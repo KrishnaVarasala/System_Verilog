@@ -24,20 +24,22 @@ Count is 1      //Every time new memory will be created
 //Static Function
 
 module Static_function();
-  function incr();
+  
+function incr();
     int count;
     count++;
     $display("Count is %0d",count);
-  endfunction
+endfunction
+
   initial begin
-  incr();
-  incr();
-  incr();
+    incr();  //calling 3 times 
+    incr(); 
+    incr();  
   end
 endmodule
 
 output:
-Count is 1
-Count is 2
+Count is 1   //memory will be shared
+Count is 2   //older value will be updated after every call
 Count is 3
 
