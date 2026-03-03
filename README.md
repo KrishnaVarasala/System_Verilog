@@ -1,16 +1,13 @@
-# System_verilog
 # SystemVerilog Basics
 
 Welcome to my digital playground where bits behave (mostly) and race conditions fear me.
 
-This repository contains my SystemVerilog basic snippets, verification testbenches, and design adventures in the wild world of VLSI.
----
+Every line of code here was written after saying:
+# “This should work.🧪”
+It didn’t.
 
-Each topic includes:
-
-- ✏️ **Brief Explanation**  
-- 💻 **Code Snippet**  
-- 💡 **Use Cases/Comments**
+Welcome to the mysterious side of VLSI.
+# We don’t trust passing simulations😈
 
 📈 Current Status
 
