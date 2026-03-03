@@ -1,5 +1,3 @@
-# SystemVerilog Basics
-
 Welcome to my digital playground where bits behave (mostly) and race conditions fear me.
 
 Every line of code here was written after saying:
