@@ -5,7 +5,7 @@ Every line of code here was written after saying:
 It didn’t.
 
 Welcome to the mysterious side of VLSI.
-# We don’t trust passing simulations😈
+We don’t trust passing simulations😈
 
 📈 Current Status
 
