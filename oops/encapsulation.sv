@@ -1,5 +1,5 @@
 //encapusulation provides data hiding
-
+//It is the process of hiding internal implementation details and exposing only the required functionality to the user
 class parent;
   local int a;
   protected int b;
